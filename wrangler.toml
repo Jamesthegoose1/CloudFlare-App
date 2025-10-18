@@ -1,0 +1,10 @@
+name = "admin-monitor-worker"
+main = "src/index.js"
+compatibility_date = "2025-10-18"
+
+[vars]
+# No secrets here! Just basic vars or constants.
+
+[kv_namespaces]
+binding = "ADMIN_LOGS"
+id = "your_kv_id_here"
